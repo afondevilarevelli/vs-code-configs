@@ -1,13 +1,13 @@
 [
   {
     "key": "ctrl+n",
-    "command": "workbench.view.explorer",
-    "when": "!explorerViewletVisible"
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "!filesExplorerFocus"
   },
   {
     "key": "ctrl+n",
-    "command": "workbench.action.closeSidebar",
-    "when": "explorerViewletVisible && activeViewlet == 'workbench.view.explorer'"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus"
   },
 
   {
