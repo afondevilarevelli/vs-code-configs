@@ -1,5 +1,6 @@
 {
   "vim.leader": "<space>",
+  "editor.lineNumbers": "relative",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["H"],
