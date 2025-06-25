@@ -43,6 +43,10 @@
       "before": ["<leader>", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
     },
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeAllEditors"]
+    },    
 
     {
       "before": ["<leader>", "v"],
