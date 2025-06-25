@@ -1,6 +1,8 @@
 {
-  "vim.leader": "<space>",
+  "workbench.editor.enablePreview": false,
+
   "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["H"],
