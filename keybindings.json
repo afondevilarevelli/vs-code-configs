@@ -1,4 +1,40 @@
 [
+ {
+    "key": "ctrl+c",
+    "command": "editor.action.closeLightBulbWidget",
+    "when": "lightBulbVisible"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeQuickFixWidget",
+    "when": "quickFixWidgetVisible"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeParameterHints",
+    "when": "parameterHintsVisible"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeSuggestWidget",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeQuickOpen",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "j",
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "k",
+    "command": "list.focusUp",
+    "when": "listFocus && !inputFocus"
+  },
+
   {
     "key": "ctrl+n",
     "command": "workbench.files.action.focusFilesExplorer",
